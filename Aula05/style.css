@@ -1,0 +1,48 @@
+
+* { /* Seletor Universar */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.destaque { /* Seletor por Classe */
+    color: blue;
+    font-weight: bold;
+}
+
+#titulo-principal { /* Seletor por ID */
+    color: red;
+    text-align: center;
+}
+
+p { /* Seletor por Tag */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 { /* Seletor por Vírgula */
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block; /* Faz o elemento se comportar como um bloco (ocupa toda a linha sozinho) */
+    margin: auto; /* Centraliza o elemento horizontalmente, desde que tenha uma largura (width) deifinida. */
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url("https://cdn.pixabay.com/photo/2012/02/24/16/59/swan-16736_1280.jpg");
+}
