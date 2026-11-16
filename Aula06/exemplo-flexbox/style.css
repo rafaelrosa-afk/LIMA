@@ -1,0 +1,199 @@
+
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* 1. Ativação do flex */
+
+.container-flex {
+    display: flex;
+    background-color: #11deb9;
+    gap: 10px;
+}
+
+.item-flex {
+    background-color: rgb(255, 166, 0);
+    padding: 20px;
+}
+
+/* 2. Direção do flex */
+
+.direcao-linha {
+    flex-direction: row;
+}
+
+.direcao-coluna {
+    flex-direction: column;
+}
+
+/* 3. Quebra de linha (Responsividade) */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+/* 4. Alinhamento horizontal (justify-content) */
+
+.justificar-inicio {
+    justify-content: flex-start;
+}
+
+.justificar-fim {
+    justify-content: flex-end;
+}
+
+.justificar-centro {
+    justify-content: center;
+}
+
+.justificar-space-between {
+    justify-content: space-between;
+}
+
+.justificar-space-around {
+    justify-content: space-around;
+}
+
+.justificar-space-evenly {
+    justify-content: space-evenly;
+}
+
+/* 5. Alinhamento vertical (align-items) */
+
+.alinhar-items .container-flex {
+    height: 300px;
+}
+
+.alinhar-stretch {
+    align-items: stretch;
+}
+
+.alinhar-inicio {
+    align-items: flex-start;
+}
+
+.alinhar-fim {
+    align-items: flex-end;
+}
+
+.alinhar-centro {
+    align-items: center;
+}
+
+.alinhar-baseline {
+    align-items: baseline;
+}
+
+/* 5.1 Alinhamento de linhas (align-content) */
+
+.alinhar-conteudo {
+    align-content: center;
+    height: 600px;
+}
+
+.alinhar-conteudo .caixa {
+    flex: 0 0 30%;
+}
+
+.caixa {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* 6. Ordenação dos itens flex (order) */
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+/* 7. Flex Grow, Shrink, Basis e Flex */
+
+.exemplo-grow .item-flex {
+    flex-basis: 100px;
+}
+
+.crescer1 {
+    flex-grow: 1;
+}
+
+.crescer2 {
+    flex-grow: 2;
+}
+
+/* 8. align-self - Alinha itens individualmente */
+
+.alinhar-items-individuais .container-flex {
+    height: 300px;
+}
+
+.self-inicio {
+    align-self: flex-start;
+}
+
+.self-centro {
+    align-self: center;
+}
+
+.self-fim {
+    align-self: flex-end;
+}
+
+/* 9. Exemplo prático: Menu de navegação */
+
+.menu-nav .container-flex {
+    height: 300px;
+    display: flex;
+    background-color: #11deb9;
+    padding: 15px;
+    gap: 10px;
+}
+
+.menu-nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* 10. Exemplo prático: Layout responsivo */
+
+.responsivo .container-flex {
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.responsivo .item-flex {
+    flex: 200px;
+}
+
+
+  
